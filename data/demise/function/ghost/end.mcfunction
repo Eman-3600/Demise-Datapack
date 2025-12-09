@@ -14,3 +14,5 @@ tag @s add KnowsHunger
 
 effect clear @s blindness
 effect give @s weakness 3 1
+
+scoreboard players set @s SunlightTicks 30

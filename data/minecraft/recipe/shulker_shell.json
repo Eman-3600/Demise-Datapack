@@ -6,17 +6,11 @@
     " A "
   ],
   "key": {
-    "X": {
-      "item": "minecraft:popped_chorus_fruit"
-    },
-    "A": {
-      "item": "minecraft:amethyst_shard"
-    },
-    "E": {
-      "item": "minecraft:ender_eye"
-    }
+    "X": "minecraft:popped_chorus_fruit",
+    "A": "minecraft:amethyst_shard",
+    "E": "minecraft:ender_eye"
   },
   "result": {
-    "item": "minecraft:shulker_shell"
+    "id": "minecraft:shulker_shell"
   }
 }

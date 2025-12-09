@@ -8,6 +8,9 @@ execute if entity @s[tag=Corporeal,tag=!Ghost] run function demise:corporeal/mai
 
 execute unless entity @s[tag=Ghost] unless entity @s[tag=Corporeal] run title @s actionbar {"text":"Manifested","color":"dark_red"}
 
+execute unless predicate demise:sunlight run scoreboard players set @s SunlightTicks 30
+execute if entity @s[tag=!Ghost,tag=!Corporeal] if predicate demise:sunlight run function demise:demon/sunlight
+
 execute if entity @s[nbt={Inventory:[{id:"minecraft:structure_void"}]}] run function demise:living/get_gapple
 execute if entity @s[scores={D_Gapple2=1..},tag=Demon] run function demise:living/revive
 execute if entity @s[scores={D_Gapple=1..},tag=Demon] run function demise:cure/begin

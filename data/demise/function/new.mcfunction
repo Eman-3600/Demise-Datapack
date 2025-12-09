@@ -28,6 +28,7 @@ scoreboard objectives add D_Flesh minecraft.used:minecraft.rotten_flesh
 scoreboard objectives add LifeTicks dummy
 scoreboard objectives add LifeHours dummy
 scoreboard objectives setdisplay list LifeHours
+scoreboard objectives add SunlightTicks dummy
 
 function demise:add_teams
 

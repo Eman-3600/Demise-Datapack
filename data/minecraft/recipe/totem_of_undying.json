@@ -6,26 +6,14 @@
     "EBN"
   ],
   "key": {
-    "X": {
-      "item": "minecraft:leather"
-    },
-    "G": {
-      "item": "minecraft:gold_ingot"
-    },
-    "T": {
-      "item": "minecraft:ghast_tear"
-    },
-    "B": {
-      "item": "minecraft:blaze_powder"
-    },
-    "N": {
-      "item": "minecraft:nether_wart"
-    },
-    "E": {
-      "item": "minecraft:emerald"
-    }
+    "X": "minecraft:leather",
+    "G": "minecraft:gold_ingot",
+    "T": "minecraft:ghast_tear",
+    "B": "minecraft:blaze_powder",
+    "N": "minecraft:nether_wart",
+    "E": "minecraft:emerald"
   },
   "result": {
-    "item": "minecraft:totem_of_undying"
+    "id": "minecraft:totem_of_undying"
   }
 }

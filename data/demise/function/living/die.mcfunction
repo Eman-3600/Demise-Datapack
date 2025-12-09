@@ -11,6 +11,7 @@ gamemode spectator @s
 tag @s add ForcedGhost
 tag @s add Ghost
 tag @s remove KnowsGhost
+tag @s remove DiedInPvp
 
 scoreboard players set @s D_GhostT 20
 scoreboard players set @s D_GhostM 0

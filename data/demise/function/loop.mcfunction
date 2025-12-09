@@ -16,12 +16,6 @@ execute as @a[tag=DemiseTutorial,tag=DemonTutorial] at @s run function demise:tu
 
 execute as @e[tag=GlobalDemise] at @s run function demise:global/main
 
-## Death
-
-execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=!Demon,tag=!Curing] at @s run function demise:living/die
-execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=Demon,tag=!Curing,tag=!ForcedGhost] at @s run function demise:demon/die
-execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=Curing,tag=!ForcedGhost] at @s run function demise:cure/die
-
 # Living
 
 execute as @a[tag=!Demon,tag=!Curing] at @s run function demise:living/main
@@ -48,6 +42,12 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:golden_apple",components:{"mine
 
 execute as @a[scores={catalyst=1..}] at @s run function demise:catalyst/use
 execute as @a[scores={catalyst=..-1}] at @s run function demise:catalyst/invalid
+
+## Death
+
+execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=!Demon,tag=!Curing] at @s run function demise:living/die
+execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=Demon,tag=!Curing,tag=!ForcedGhost] at @s run function demise:demon/die
+execute as @a[scores={D_Dead=1..2147483647},team=!D_Innocent,tag=Curing,tag=!ForcedGhost] at @s run function demise:cure/die
 
 ## Scoreboard Reset
 
