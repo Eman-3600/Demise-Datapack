@@ -1,0 +1,28 @@
+{
+  "parent": "demise:story/use_catalyst",
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": {
+      "text": "Demon Slayer"
+    },
+    "description": {
+      "text": "Slay a demon that has been forcefully materialized."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

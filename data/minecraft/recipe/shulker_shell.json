@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "XEX",
+    " A "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "E": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_shell"
+  }
+}

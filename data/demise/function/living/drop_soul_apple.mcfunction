@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:structure_void",components:{custom_model_data:{},item_name:"Soul"}}}

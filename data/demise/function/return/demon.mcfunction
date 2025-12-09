@@ -1,0 +1,2 @@
+title @s title {"text":"Demon","color":"dark_red"}
+tellraw @s {"text":"Welcome back to Demise - Demons. You are a demon. Use the command, /trigger ghost, to switch between incorporeal and corporeal forms.","color":"aqua"}
